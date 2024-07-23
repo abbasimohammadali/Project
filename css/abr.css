@@ -1,0 +1,45 @@
+@import url(fontiran.css); 
+
+* ,
+*::after ,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    direction: rtl;
+    background-color: #f8f1e9;
+    font-family: IRANSansX  !important;
+    text-align: justify;
+
+}
+
+.backgroundbody{
+    background-color: #e2ddd9;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.title {
+    color: #5e5e5e;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.box_mode {
+    margin-top: 20px;
+}
+
+.box_mode>p {
+    font-size: 17px;
+    line-height: 2;
+}
+
+.box_mode>h6 {
+    font-size: 23px;
+    line-height: 2;
+}

@@ -1,0 +1,74 @@
+* , 
+*::after ,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #f2f3f5;
+  direction: rtl;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.resume{
+    font-family: 'Lateef', serif;
+    background-color: #28a9e2;
+    color: white;
+    padding: 15px;
+    /* border-radius: 15px; */
+  }
+
+  .resume h6{
+    font-size: 18px;  
+  }
+
+  .resumeimgostad {
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  div.polaroid {
+    border-radius: 12px;
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+  div.polaroid {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-h2{
+    font-family: 'Lateef', serif;
+    padding-top: 70px ; 
+  }
+
+  .text-h4{
+    font-family: 'Lateef', serif;
+    padding: 8px 15px 9px 0px;
+  }
+  .spans{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lateef', serif;
+  }
+  .span{
+   background-color: #333333;
+   color: white;
+   padding: 5px;
+   margin: 10px 0px;
+   border-radius: 8px;
+  }
